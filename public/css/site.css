@@ -1,0 +1,141 @@
+﻿.mother {
+  background-image: url(../images/back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Roboto;
+  font-weight: Regular;
+  background-color: #4285f4;
+}
+
+.grid-horizontal-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-gap: 10px;
+  
+}
+
+.grid-vertical-container {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-row-gap: 10px;
+}
+
+.crop_element {
+  margin-top: 30px;
+}
+
+
+.funfun {
+  color: white;
+}
+
+html {
+  font-size: 14px;
+}
+
+h3 {
+  margin: auto;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.footer {
+  white-space: nowrap;
+  margin: auto;
+  align-content: center;
+
+  position: fixed;
+   left: 0;
+   bottom: 10px;
+   width: 100%;
+   text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+
+.thumbnail-cc {
+  cursor: pointer;
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 100ms ease-in;
+  -moz-transition: all 100ms ease-in;
+  transition: all 100ms ease-in;
+}
+
+
+.thumbnail-cc:hover {
+  -webkit-filter: brightness(1.2) grayscale(.8) opacity(1);
+  -moz-filter: brightness(1.2) grayscale(.8) opacity(1);
+  filter: brightness(1.2) grayscale(.8) opacity(1);
+}
+
+.uploader {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  align-self: center;
+  align-content: center;
+}
+
+.upload {
+  width: 150px;
+  height: 35px;
+  border-radius: 17px;
+  background: #C8E6C9;
+  padding-top: 15px;
+  cursor: pointer;
+  margin: auto;
+  font-size: 22px;
+  text-align: center;
+}
+
+.olofofo {
+  margin-top: 1em;
+  color: white;
+  text-align: center;
+}
+
+.aarin {
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.center_text {
+  text-align: center;
+}
+
+@media only screen and (max-width: 500px) {
+ 
+  .crop_element {
+    margin-top: 15px;
+  }
+  .thumbnail-cc {
+    width: 60px;
+    height: 60px;
+  }
+
+  .grid-horizontal-container {
+    grid-gap: 5px;
+  }
+}

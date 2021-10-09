@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>GDSC FST Marrakech Avatar Creator</title>
+    <link rel="shortcut icon" href="images/gdg_nmwyzu.png" />
+    <meta name="theme-color" content="#23457C">
+
+    <!-- Disable tap highlight on IE -->
+    <meta name="msapplication-tap-highlight" content="no">
+
+
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="GDSC FST Marrakech Avatar">
+    <link rel="icon" sizes="192x192" href="images/dva192.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="GDSC FST Marrakech Avatar">
+    <link rel="apple-touch-icon" href="images/dva152.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="images/dva144.png">
+    <meta name="msapplication-TileColor" content="#23457C">
+
+    <meta name="description" content="Create your GDSC FST Marrakech Avatar" />
+    <link rel="canonical" href="https://devfestavatar.web.app" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="GDSC FST Marrakech Avatar" />
+    <meta property="og:description" content="GDSC FST Marrakech Avatar" />
+    <meta property="og:url" content="https://devfestavatar.web.app" />
+    <meta property="og:site_name" content="GDSC FST Marrakech Avatar" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:description" content="Create your GDSC FST Marrakech Avatar" />
+    <meta name="twitter:title" content="Create your GDSC FST Marrakech Avatar" />
+
+    <link rel="stylesheet" href="css/site.css" />
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/solid.css"
+        integrity="sha384-qPldrzmea0i8jhonuql0da/kQWeaXdQl+krGXcTQUdRUGHcXBfSrBbZLbyMcCWcF" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/brands.css"
+        integrity="sha384-qVnmyLTtnGPGEN3HDG2MCEOXWH1Yk/i70lKRuV+gMCDQg+jblQlFGPf1mejWUyYG" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/fontawesome.css"
+        integrity="sha384-hM7EQerc09E4O3zhtvF2iqcB4ZkEu9xkLQndhXdGGCEJ/sB4JK54SuKGmIC35UTf" crossorigin="anonymous">
+    <link href="css/loading.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cropme@latest/dist/cropme.min.css">
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-WRNMXXW');</script>
+    <!-- End Google Tag Manager -->
+</head>
+
+<body class="mother">
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WRNMXXW" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+
+
+
+    <div class="dialog-mask collapse">
+        <div class="dialog-status">
+            <div class="dialog-status-container">
+                <div class="progress-ring progress-large">
+                    <div class="progress-circle"></div>
+                    <div class="progress-circle"></div>
+                    <div class="progress-circle"></div>
+                    <div class="progress-circle"></div>
+                    <div class="progress-circle"></div>
+                </div>
+                <span class="dialog-status-message"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <main role="main" class="aarin">
+            <div style="background: transparent;" class="aarin">
+
+                <div id="tocrop" class="crop_element"></div>
+
+                <div class="uploader row">
+                    <input type="file" style="display: none;" accept="image/*" />
+                    <p class="fileInput upload">Pick</p>
+                </div>
+
+                <p class="mdc-typography--headline6 funfun center_text" style="font-weight: bold;background-color: #404040;">Choose color to download.</p>
+
+                <div class="grid-horizontal-container square-thumbnails">
+                    <input type="image" src="./images/thumbnail-green.png" class="thumbnail-cc" alt="green" />
+                    <input type="image" src="./images/thumbnail-yellow.png" class="thumbnail-cc" alt="yellow" />
+                    <input type="image" src="./images/thumbnail-blue.png" class="thumbnail-cc" alt="blue" />
+                    <input type="image" src="./images/thumbnail-red.png" class="thumbnail-cc" alt="red" />
+                </div>
+
+          
+
+                <a style="display: none;" href="#" asp-action="Download" download id="downloadimg" download
+                    title="Download"></a>
+
+
+            </div>
+        
+        </main>
+    </div>
+    <footer>
+        <div class=" center_text" style="color: #e84435;font-size: 24px;bottom: 0;">
+            With ❤ by GDSC FST Marrakech - Cadi Ayyad University
+        </div>
+
+
+</footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" crossorigin="anonymous"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=">
+        </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script src="js/cropme.js"></script>
+    <script src="js/merge.js"></script>
+    <script src="js/site.js" asp-append-version="true"></script>
+</body>
+
+</html>
